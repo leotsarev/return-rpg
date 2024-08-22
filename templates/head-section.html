@@ -1,0 +1,37 @@
+{% extends "section.html" %}
+
+{% block content %}
+<h2 class="title"> {{ section.title }} </h2>
+    {% if section.word_count > 0 -%}
+        {{ section.content | safe }}
+    {% endif -%}
+
+    <div style="display: flex; flex-wrap: wrap;">
+        {% for page in section.pages -%}
+        <div>
+            <a href="{{ page.permalink | safe }}{{ _ugly_url }}">
+                <img src="logo.png" />
+                <br/>
+                <div style="text-align: center;">
+                    {{page.title }}
+                </div>
+            </a>
+        </div>
+        {% endfor -%}
+
+
+        {% for subsec in section.subsections -%}
+            {% set sec_ = get_section(path=subsec) -%}
+            <div>
+                    <a href="{{ sec_.permalink | safe }}{{ _ugly_url }}">
+                    <img src="logo.png" />
+                    <br/>
+                    <div style="text-align: center;">
+                        {{ sec_.title }}
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+
+    </div>
+{% endblock content %}

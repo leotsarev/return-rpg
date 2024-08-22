@@ -347,6 +347,7 @@ blockquote {
   margin: 0;
   background-color: $quote-bg;
   padding: 0 20px;
+  display: inline-block;
 }
 
 @import "fabric-icons-inline";
