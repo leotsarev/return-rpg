@@ -12,6 +12,8 @@
     {% endif -%}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    {% block extra_head %}
+    {% endblock extra_head %}
 </head>
 <body>
 <main>
