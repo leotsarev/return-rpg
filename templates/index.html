@@ -151,7 +151,9 @@
     <script type="text/javascript" src="{{ get_url(path="search_index.en.js") | safe }}" defer></script>
 {% endif -%}
 
-    <script type="text/javascript" src="{{ get_url(path="js.js") | safe }}" defer></script>
+    <script type="text/javascript" src="{{ get_url(path="js.js") }}" defer></script>
 
+    <script src="{{ get_url(path="mermaid.11.2.1.min.js") }}"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
 </body>
 </html>
