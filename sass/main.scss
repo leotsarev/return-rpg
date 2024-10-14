@@ -356,3 +356,13 @@ blockquote {
 @import "genesys-attrs";
 
 @import "genesys-fonts";
+
+.charblock::after {
+  content: ""; clear: both; display: block;
+}
+
+.avatar {
+  float:left;
+  margin-right: 0.5em;
+  border: solid 1px black;
+}

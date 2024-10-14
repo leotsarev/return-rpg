@@ -1,0 +1,5 @@
+{% if name %}
+<h4> {{name}}</h4>
+{% else %}
+{% endif %}
+<p class="charblock"><a href="https://storage.yandexcloud.net/return-avatars.leotsarev.ru/{{img}}"><img src="https://storage.yandexcloud.net/return-avatars.leotsarev.ru/{{img}}" width="200px" height="200px" class="avatar"/></a>{{ body | markdown(inline=true) | safe }}</p>
