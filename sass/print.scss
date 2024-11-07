@@ -1,0 +1,17 @@
+@import "variables";
+
+@media print {
+    nav {
+        display: none !important;
+    }
+    
+    article {
+        width: calc(100% - (#{$baseline} * 4));
+        margin-left:calc(#{$baseline} * 2);
+       
+       }
+    
+   body {
+        font-size:calc($font-size * 0.7);
+      }
+}
