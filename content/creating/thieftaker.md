@@ -34,7 +34,7 @@ graph TD
 
     повышение
 
-    disorient_5[<b>После попадания в ближнем бою, <span title="adv" class="genesys-symbol genesys-symbol-advantage"></span><span title="adv" class="genesys-symbol genesys-symbol-advantage"></span>: дезориентируй цель на Х (=ранг)раундов.  </b>]
+    disorient_5["<b>После попадания в ближнем бою, <span title="adv" class="genesys-symbol genesys-symbol-advantage"></span><span title="adv" class="genesys-symbol genesys-symbol-advantage"></span>: дезориентируй цель на Х (=ранг)раундов.  </b>"]
     засада_15[Доп. дамаг за Скрытность]
         повышение["<b>Повышение 25</b><br>Любая характеристика увеличивается на 1 (максимум 6)"]
 
