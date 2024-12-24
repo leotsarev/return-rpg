@@ -1,9 +1,12 @@
 +++
-title="Солдат"
+title="Таланты: Солдат"
+weight=101
 +++
 
 {% mermaid() %}
 graph TD
+    привычка_к_львиноголову
+    
     caban[<b>Кабан спускается с холма 5</b><br>После того персонаж атакует в ближнем бою после маневра, которым подошел к оппоненту, он может потратить <span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span><span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span><span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span> или <span title="Triumph symbol" class="genesys-symbol genesys-symbol-triumph"></span> чтобы сшибить врага с ног и заставить его отойти на одну дистанцию]
     caban --> caban2[<b>Кабан спускается с горы 10</b><br>После того как персонаж подошел к оппоненту маневром, он может потратить 2 усталости и добавить <span title="Success symbol" class="genesys-symbol genesys-symbol-success"></span><span title="Success symbol" class="genesys-symbol genesys-symbol-success"></span><span title="Threat symbol" class="genesys-symbol genesys-symbol-threat"></span><span title="Threat symbol" class="genesys-symbol genesys-symbol-threat"></span> к проверке ближнего боя в этом ходу]
 
@@ -29,7 +32,7 @@ graph TD
     attrup["<b>Повышение 25</b><br>Любая характеристика увеличивается на 1 (максимум 6)"]
     
     block --> armormaster[<b>Мастер доспехов 15</b> <br/>+1 Поглощение, пока надет доспех]
-    armormaster --> armormaster2[<b>Тяжелые доспехи 20</b> <br/>Если доспех приносит 2 или больше поглощения, он приносит и +1/+1 защиту]
+    armormaster --> armormaster2[<b>Тяжелые доспехи 20</b> <br/>Если доспех приносит 3+ поглощения, он приносит и +1/+1 защиту]
     def3["<b>Защитная стойка 15</b> <br/>Один раз за раунд, потрать Х усталости (не больше, чем  ранг Защитной Стойки). До конца следующего хода сложность попадания по тебе в ближнем бою выше на Х"]
     defensive[<b>Оборона 20</b><br /> +1/+1 к защите]
     prehit["<b>Предотвратить 25</b><br>Один раз за раунд, когда враг в досягаемости атакует союзника, потрать 1 очко сюжета, чтобы немедленно автоматически попасть по нему атакой. Попадание снимает ущерб оружия + возможные бонусы и случается перед броском атаки врага"]

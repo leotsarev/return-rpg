@@ -13,6 +13,9 @@ title = "Возвращение"
 # Whether to do syntax highlighting
 highlight_code = false
 
+[link_checker]
+internal_level = "error"
+
 [extra]
 # Put all your custom variables here
 
