@@ -33,7 +33,7 @@ graph TD
     обезоруживание_20[<b>Обезоруживание 25</b><br>После успешной атаки в ближнем бою без оружия: Потрать <span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span><span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span><span title="Advantage symbol" class="genesys-symbol genesys-symbol-advantage"></span> или <span title="Triumph symbol" class="genesys-symbol genesys-symbol-triumph"></span>, чтобы обезоружить противника]
     оглушающий_удар_5["<b>Оглушающий удар&nbsp;10</b><br/>При ударе без оружия наносит доп. урон усталостью 2+Координации (не стекается с другим уроном усталостью, снижается поглощением)"]
 
-    пытки_5["<b>Пытки 5</b><br>Пытки: за каждый раунд пыток нанеси критическую травму+80, и добавляй <span title="Голубой" class="genesys-symbol genesys-symbol-boost"></span> к броскам Запугивания или Обман до конца сцены (максимум Х кубов, где где Х ранг пыток)."]
+    пытки_5["<b>Пытки 5</b><br>Пытки: за каждый раунд пыток нанеси критическую травму+80, и добавляй <span title="Голубой" class="genesys-symbol genesys-symbol-boost"></span> к броскам Запугивания или Обмана до конца сцены (максимум Х кубов, где где Х ранг пыток)."]
     пытки_без_крови_10["<b>Бескровные мучения 10</b><br>Критическая травма при пытках наносится на+50, и если это нужно, не считается проливающей кровь. Считается рангом пыток."]
     самая_страшная_вещь_на_свете["<b>Самая страшная вещь на свете 20</b><br>1 раз за сессию нанеси допрашиваемому критическую травму «Уродство», чтобы добавить <span title="Triumph symbol" class="genesys-symbol genesys-symbol-triumph"></span> к броску Запугивания или Обмана. Считается рангом пыток."]
 
