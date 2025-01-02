@@ -61,7 +61,7 @@ graph TD
 
     непроходимая_толпа["<b>Непроходимая толпа 20</b><br>В толпе или населенном пункте, брось Обман против <span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span><span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span>. При успехе, все, кроме ловца и его спутников, считают окрестности пересеченной местностью (при <span title="Triumph symbol" class="genesys-symbol genesys-symbol-triumph"></span> непроходимой)"]
     
-    лживый_слух["<b>Знают все на улицах 15</b><br>1 раз за сессию, брось Обман против <span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span><span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span><span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span>. При успехе распространи один ложный слух по простонародью вокруг. Отдельные NPC могут сопротивляться Бдительностью с минусами (кидается взакрытую)".]
+    лживый_слух["<b>Знают все на улицах 15</b><br>1 раз за сессию, брось Обман против <span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span><span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span><span title="Сложность" class="genesys-symbol genesys-symbol-difficulty"></span>. При успехе распространи один ложный слух по простонародью вокруг. Отдельные NPC могут сопротивляться Бдительностью с минусами (кидается в закрытую)".]
 
     легендарный_выстрел["<b>Легендарный выстрел 25</b><br>2 усталости: Маневр прицеливания также убирает <span title="setback dice" class="genesys-symbol genesys-symbol-setback"></span><span title="setback dice" class="genesys-symbol genesys-symbol-setback"></span> из защиты цели."]
 
