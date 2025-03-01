@@ -1,0 +1,1 @@
+@media print{nav{display:none !important}article{width:calc(100% - (1.5rem * 4));margin-left:calc(1.5rem * 2)}body{font-size:.7875rem}}
