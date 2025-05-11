@@ -60,6 +60,12 @@ weight=1100
     <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Особняк марат`дамани</text>
   </g>
 
+  <g class="group" transform="translate(300, 650)">
+        <rect x="4" y="8" width="12" height="10" fill="goldenrod" />
+    <polygon points="4,8 10,0 16,8" fill="gold" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Особняк леди Элианны</text>
+  </g>
+
   <g class="group" transform="translate(122, 1198)">
     <polygon points="0,10 20,10 10,0" fill="brown" />
     <rect x="2" y="10" width="16" height="10" fill="saddlebrown" />
