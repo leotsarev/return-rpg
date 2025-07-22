@@ -13,7 +13,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4.2.2
       - name: Build only 
-        uses: shalzz/zola-deploy-action@v0.20.0
+        uses: shalzz/zola-deploy-action@v0.21.0
         env:
           BUILD_ONLY: true
           BUILD_FLAGS: --drafts
@@ -26,6 +26,6 @@ jobs:
         - name: Checkout main
           uses: actions/checkout@v4.2.2
         - name: Build & Deploy
-          uses: shalzz/zola-deploy-action@v0.20.0
+          uses: shalzz/zola-deploy-action@v0.21.0
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
