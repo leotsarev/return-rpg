@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://return-rpg.leotsarev.ru/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Возвращение | Танчико </title>
+    
+<meta property="og:title" content="Возвращение | Танчико" /> 
+<meta property="og:description" content="">
+
+</head>
+<body>
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;return-rpg.leotsarev.ru">
+                        <img src="https://return-rpg.leotsarev.ru/logo.png" alt="logo"/>
+                    </a>
+                <br/>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="glavnoe"
+                           />
+                    <label class="tree-toggle-label"
+                           for="glavnoe">Главное</label>
+
+                    <ul class="subtree">
+                        <li> <a href="https://return-rpg.leotsarev.ru/main/">Главное</a></li>
+                        <li >
+                                <a href="https://return-rpg.leotsarev.ru/main/teaser/">Анонс</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/main/players/">Игроки</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="pravila"
+                           />
+                    <label class="tree-toggle-label"
+                           for="pravila">Правила</label>
+
+                    <ul class="subtree">
+                        <li> <a href="https://return-rpg.leotsarev.ru/rules/">Правила</a></li>
+                        <li >
+                                <a href="https://return-rpg.leotsarev.ru/rules/weapons/">Снаряжение</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="setting"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="setting">Сеттинг</label>
+
+                    <ul class="subtree">
+                        <li> <a href="https://return-rpg.leotsarev.ru/setting/">Сеттинг</a></li>
+                        <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/world/">Мир и История</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/seanchan/">Менталитет Шончан</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/politics/">Политика Шончан</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/state/">Министерства и управления</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/army/">Армия Шончан</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/darkfriends/">Друзья Темного</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/hailine/">Состав Предвестников</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/map/">Карты</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://return-rpg.leotsarev.ru/setting/tanchico/">Танчико</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/setting/locations/">Интересные локации</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="sozdanie-personazhei"
+                           />
+                    <label class="tree-toggle-label"
+                           for="sozdanie-personazhei">Создание персонажей</label>
+
+                    <ul class="subtree">
+                        <li> <a href="https://return-rpg.leotsarev.ru/creating/">Создание персонажей</a></li>
+                        <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/background/">Происхождение</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/way/">Путь (Карьера)</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/skills/">Навыки</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/soldier/">Таланты: Солдат</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/duelist/">Таланты: Фехтовальщик</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/thieftaker/">Таланты: Ловец воров</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/investigator/">Таланты: Дознаватель</a>
+                            </li>
+
+                            <li >
+                                <a href="https://return-rpg.leotsarev.ru/creating/teacher/">Таланты: Учитель</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="glavy"
+                           />
+                    <label class="tree-toggle-label"
+                           for="glavy">Главы</label>
+
+                    <ul class="subtree">
+                        <li> <a href="https://return-rpg.leotsarev.ru/story/">Главы</a></li>
+                        <li >
+                                <a href="https://return-rpg.leotsarev.ru/story/1-return-home/">1. Возвращение домой</a>
+                            </li>
+
+                            </ul>
+                </div>
+            <div style="border: 1px solid;">
+                <a href= "https://t.me/+0jTXhgF6K2c5ZmZi"><img src="/icons/telegram.svg" width="15px" height="15px"/> Телеграм-канал</a>
+            </div>
+        </nav>
+    <article>
+
+        <div id="wrap">
+            
+        <svg width="982" height="1600" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .group text { visibility: hidden; }
+        .group:hover text { visibility: visible; }
+    </style>
+  <!-- Фоновое изображение -->
+  <image href="https://return-avatars.leotsarev.ru/maps/tanchico.png" x="0" y="0" width="982" height="1600" />
+  <defs>
+    <filter id="text-bg" x="-5" y="-5" width="200" height="50">
+      <feFlood flood-color="black" flood-opacity="0.8"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+      <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Пример вставки сторонней SVG-иконки (здесь — простая звезда) 
+  <g transform="translate(494, 313)" class="group">
+    <polygon points="10,0 12,7 20,7 13.5,11.5 16,18 10,14 4,18 6.5,11.5 0,7 8,7"
+             fill="gold" />
+    <text x="10" y="30" font-size="12" text-anchor="middle" fill="white" filter="url(#text-bg)">Лагерь белоплащников</text>
+    
+  </g> -->
+  <g class="group" transform="translate(494, 313)">
+    <polygon points="0,10 20,10 10,0" fill="brown" />
+    <rect x="2" y="10" width="16" height="10" fill="saddlebrown" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Лагерь белоплащников</text>
+  </g>
+  <g class="group" transform="translate(132, 532)">
+    <rect x="4" y="4" width="12" height="12" fill="black" />
+    <polygon points="4,16 16,16 10,24" fill="black"/>
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Вход в каменоломни</text>
+  </g>
+  <g class="group" transform="translate(440, 947)">
+    <rect x="3" y="6" width="14" height="12" fill="peru" />
+    <circle cx="10" cy="12" r="3" fill="burlywood" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Таверна «Три сливы»</text>
+  </g>
+  <g class="group" transform="translate(232, 990)">
+    <rect x="3" y="6" width="14" height="12" fill="peru" />
+    <circle cx="10" cy="12" r="3" fill="burlywood" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Таверна «Затмение»</text>
+  </g>
+  <g class="group" transform="translate(266, 686)">
+        <rect x="4" y="8" width="12" height="10" fill="goldenrod" />
+    <polygon points="4,8 10,0 16,8" fill="gold" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Особняк марат`дамани</text>
+  </g>
+  <g class="group" transform="translate(300, 650)">
+        <rect x="4" y="8" width="12" height="10" fill="goldenrod" />
+    <polygon points="4,8 10,0 16,8" fill="gold" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Особняк леди Элианны</text>
+  </g>
+  <g class="group" transform="translate(122, 1198)">
+    <polygon points="0,10 20,10 10,0" fill="brown" />
+    <rect x="2" y="10" width="16" height="10" fill="saddlebrown" />
+  </g>
+  <g class="group" transform="translate(142, 1218)">
+    <polygon points="0,10 20,10 10,0" fill="brown" />
+    <rect x="2" y="10" width="16" height="10" fill="saddlebrown" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Основной лагерь Предвестников</text>
+  </g>
+  <g class="group" transform="translate(108, 1214)">
+    <polygon points="0,10 20,10 10,0" fill="brown" />
+    <rect x="2" y="10" width="16" height="10" fill="saddlebrown" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Основной лагерь Предвестников</text>
+  </g>
+  <g class="group" transform="translate(442, 700)">
+        <rect x="4" y="8" width="12" height="10" fill="goldenrod" />
+    <polygon points="4,8 10,0 16,8" fill="gold" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Дворец панарха</text>
+  </g>
+  <g class="group" transform="translate(412, 847)">
+        <rect x="4" y="8" width="12" height="10" fill="goldenrod" />
+    <polygon points="4,8 10,0 16,8" fill="gold" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Дворец короля</text>
+  </g>
+  <g class="group" transform="translate(342, 847)">
+    <rect x="4" y="4" width="12" height="12" fill="black" />
+    <line x1="4" y1="10" x2="16" y2="10" stroke="white" stroke-width="1" />
+    <text x="10" y="30" font-size="16" text-anchor="middle" fill="white" filter="url(#text-bg)">Подвал с выходом</text>
+  </g>
+</svg>
+
+    
+        </div>
+
+    </article>
+</main>
+
+<script type="text/javascript" src="https://return-rpg.leotsarev.ru/js.js" defer></script>
+
+    <script src="https://return-rpg.leotsarev.ru/mermaid.11.2.1.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+</body>
+</html>
