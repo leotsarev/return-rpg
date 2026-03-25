@@ -10,8 +10,6 @@ build_search_index = false
 title = "Возвращение"
 
 [markdown]
-# Whether to do syntax highlighting
-highlight_code = false
 
 [link_checker]
 internal_level = "error"
